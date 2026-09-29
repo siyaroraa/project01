@@ -20,8 +20,6 @@ img {
   max-width: 100%;
 }
 
-/* header */
-
 .gg-header {
   position: sticky;
   top: 0;
@@ -58,8 +56,6 @@ img {
   height: auto;
   display: block;
 }
-
-/* timeline */
 
 .timeline {
   position: relative;
@@ -126,13 +122,10 @@ img {
   left: -10px;
 }
 
-/* author card */
-
 .author-card {
   position: relative;
   z-index: 20;
 
-  /* sits on the right side of the line, next to e-blast 01 */
   float: right;
   width: calc(50% - 50px);
 
@@ -151,7 +144,6 @@ img {
 }
 
 .author-card img {
-  /* natural square shape, no cropping */
   width: 100%;
   max-width: 380px;
   height: auto;
@@ -170,8 +162,6 @@ img {
   font-weight: 600;
   margin-bottom: 0;
 }
-
-/* posts */
 
 .post {
   width: 100%;
@@ -240,8 +230,6 @@ img {
   border-right: none;
 }
 
-/* footer */
-
 .ending {
   padding: 80px 20px;
 
@@ -273,8 +261,6 @@ img {
   width: 45px;
   height: auto;
 }
-
-/* phones and small screens: one column, line on the left */
 
 @media (max-width: 800px) {
   .main {
