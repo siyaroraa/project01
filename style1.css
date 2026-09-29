@@ -317,3 +317,15 @@ body {
   font-size: 25px;
   font-weight: 600;
 }
+
+.author-card .author-subtitle {
+  color: #8756a8;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.author-card .author-signoff {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 0;
+}
